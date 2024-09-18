@@ -5,188 +5,193 @@
 ## 1. EcoScan
 
 ### Background
-Recycling is critical to environmental sustainability, yet many people struggle to accurately sort their waste. Regional variations in recycling rules further complicate the process, leading to improper sorting and contamination of recyclables. This reduces the efficiency of recycling facilities and results in more waste being sent to landfills. The difficulty in identifying recyclable materials prevents many from participating effectively in recycling programs.
+Recycling is essential for environmental sustainability, but many individuals face challenges in correctly sorting their waste due to the complex and often region-specific recycling rules. Incorrect sorting can lead to contamination of recyclable materials, reducing the effectiveness of recycling efforts and increasing landfill waste. A key barrier to better recycling habits is the difficulty in identifying what materials are recyclable and how to properly dispose of them.
 
 ### Importance
-Enhancing recycling practices can significantly reduce waste in landfills, conserve natural resources, and lower the energy consumption involved in producing new materials. An intuitive, AI-powered tool capable of identifying recyclables can have a widespread positive impact on both individual habits and broader environmental sustainability efforts.
+Improving recycling practices can significantly reduce landfill waste, conserve natural resources, and lower the energy costs associated with producing new materials. An AI-powered tool that accurately identifies recyclable materials can empower individuals to make informed choices, leading to more effective recycling efforts and greater environmental impact.
 
 ### Problem Statement
-Develop an image recognition model that classifies common household items as recyclable, non-recyclable, or requiring special disposal. The solution should include a mobile application with features that allow users to:
-1. Take a photo of an item
-2. Receive an instant classification
-3. Get location-based recycling/disposal instructions
-4. Access educational content about recycling's benefits
+**Input:** The user will capture or upload an image or video of a wastage item.  
+**Output:** The system will separate each item as:
+1. **Recyclable**
+2. **Non-recyclable**
+3. **Requires special disposal**
 
-The model should aim for a 90% accuracy rate, with the ability to adapt to new items and local recycling guidelines. The mobile app must be user-friendly and able to update recycling rules based on geographical location.
+Additionally, the application should provide localized information about how to dispose of the item based on regional recycling guidelines.
 
+The model should:
+- Aim for a nominal accuracy rate (e.g., 60% or above) in distinguishing items.
+- Robust to new and unseen items.
+- Integrate seamlessly into a mobile or web application with a user-friendly interface.
+  
+The app should also:
+- Offer a clear breakdown of items within the image or video (if multiple are present).
+- Display actionable information based on the user’s location, such as specific instructions for recycling in their region.
+  
+### Challenge
+The model must handle diverse image inputs, varying lighting conditions, and different item orientations while maintaining high classification accuracy.
 ---
 
 ## 2. SoundScape
 
 ### Background
-Music remixing and production often require isolating individual instruments from a complete audio track. Current separation methods are either inaccurate, producing artifacts, or limited in scope. This limits the creative possibilities for musicians and makes it harder to analyze or remix tracks.
+In music production and remixing, separating individual instruments from a complete audio track is often necessary but challenging. Current separation techniques frequently introduce artifacts or incomplete isolation, making it difficult for musicians and producers to work with clean, isolated tracks. A tool that can separate instruments accurately would provide more control over audio tracks, enabling a wider range of creative possibilities for remixing, producing, and analyzing music.
 
 ### Importance
-A robust tool for instrument separation could revolutionize music production, remixing, and education. Musicians could gain more control over tracks, enabling them to experiment with isolated sounds, remixes, and analysis. This opens up opportunities for both amateurs and professionals to expand their creative output.
+A precise instrument separation tool could significantly enhance the flexibility and creative potential for musicians, producers, and sound engineers. It could enable them to isolate, manipulate, and remix sounds without compromising the quality of the original track. This would revolutionize the remixing process, aid in music education, and offer new ways for musicians to interact with their creations.
 
 ### Problem Statement
-Build a machine learning model that separates and isolates individual instruments from mixed audio tracks. The web app should allow users to:
-1. Upload an audio file
-2. Visualize and adjust the separated instrument tracks
-3. Control instrument volume or mute tracks in real-time
-4. Export individual tracks or custom mixes
+**Input:** The user uploads a mixed audio file.  
+**Output:** The system separates the audio into distinct tracks, including:
+1. **Vocals** (must always be separated)
+2. **Instruments** (the system should support separation of multiple instruments, such as guitar, drums, bass, piano, or others, depending on the track)
 
-The model should support at least 5 instruments (vocals, guitar, drums, bass, piano) and provide clear separations with minimal audio bleeding.
+The separated tracks should be accessible in a web application that allows users to:
+1. Visualize the different audio tracks.
+2. Adjust the volume or mute individual tracks (both vocals and instruments) in real-time.
+3. Export individual tracks or custom mixes.
 
+The model should:
+- Always separate vocals from the instrument tracks.
+- Be capable of separating a variable number of instruments, depending on the complexity of the input.
+- Minimize audio artefacts and reduce "bleeding" between the tracks for clear separation.
+- Ensure high-quality audio output for both vocals and instruments.
+
+### Challenge
+The model must handle a wide variety of audio files with different instruments, varying complexities, and overlapping frequencies. The web application should be responsive, allowing users to adjust the audio tracks in real-time without noticeable delays or quality degradation.
 ---
 
 ## 3. GestureFlow
 
 ### Background
-Traditional computer interaction methods like keyboards and mice are not always accessible for people with mobility impairments. Hands-free alternatives, such as voice control, are useful but limited in noisy environments or when vocal interaction is inconvenient. Gesture-based interaction could provide a more intuitive, accessible way to control computers.
+Traditional input devices like keyboards and mice are not always practical or accessible, particularly for individuals with mobility impairments or in environments where hands-free interaction is required. While voice control offers an alternative, it is limited in noisy environments or situations where vocal commands are inconvenient. Gesture-based interaction provides a promising solution by allowing users to control devices through natural hand movements, making it especially valuable in sectors like healthcare, industry, and accessibility.
 
 ### Importance
-Gesture recognition technology can benefit various sectors, including healthcare, industry, and accessibility for disabled users. It provides a touch-free solution for interacting with devices, particularly in environments where touch or voice control is impractical.
+Gesture recognition technology can greatly enhance accessibility, enabling users with disabilities to interact with computers without traditional input devices. It is also valuable in sterile environments, such as operating rooms, or industrial settings where hands are occupied. By providing a hands-free, intuitive way to control devices, gesture-based systems can improve efficiency and enable new forms of human-computer interaction.
 
 ### Problem Statement
-Design a real-time hand gesture recognition system for controlling computer functions using computer vision. The application should allow users to:
-1. Control basic functions (click, scroll, navigation)
-2. Customize gesture-to-action mappings
-3. Train the system to recognize new gestures
-4. Adjust sensitivity and define activation zones
+**Input:** The user interacts with a webcam or external camera, performing hand gestures.  
+**Output:** The system recognizes predefined hand gestures and translates them into computer actions, such as:
+1. **Click**
+2. **Scroll**
+3. **Navigate**
 
-The model should achieve at least 95% accuracy and handle various lighting conditions. The desktop app should provide low-latency performance and an intuitive interface for customization.
+The application should allow users to:
+1. Customize gesture-to-action mappings.
+2. Train the system to recognize new, user-defined gestures.
+3. Adjust gesture recognition sensitivity and define activation zones on the screen for more accurate control.
 
+The model should:
+- Recognize at least 10 predefined gestures with a minimum accuracy of 95%.
+- Adapt to different lighting conditions and various hand positions.
+- Perform with low latency to ensure smooth, real-time interaction.
+
+### Challenge
+The gesture recognition model must be robust against environmental changes, such as varying lighting or backgrounds, and accurately distinguish between different hand movements. The desktop application should be responsive and provide a simple interface for gesture customization, allowing users to personalize the system based on their needs and preferences.
 ---
 
 ## 4. NutriAI
 
 ### Background
-Tracking nutritional intake is essential for maintaining health but often involves manual logging, which can be inaccurate and time-consuming. Estimating portion sizes and nutritional content further complicates the process, making it hard for users to adhere to dietary goals.
+Accurately tracking nutritional intake is vital for maintaining a healthy lifestyle, but the manual process of logging meals and estimating portion sizes is often time-consuming and prone to errors. People frequently misjudge portion sizes or forget to log their meals, leading to inconsistent tracking. This lack of accurate nutritional data can make it difficult for users to meet their dietary goals, whether for weight management, disease prevention, or general wellness.
 
 ### Importance
-Automated nutritional tracking can help combat diet-related health issues like obesity and heart disease by providing users with accurate, real-time feedback. By simplifying nutrition logging, users can make informed choices that align with their dietary needs.
+An automated system for tracking nutrition could significantly improve the accuracy and ease of dietary monitoring. It can help users make informed decisions about their food choices by providing real-time estimates of nutritional content. This is especially important for individuals managing diet-related conditions such as obesity, diabetes, or cardiovascular diseases. With accurate feedback, users can better adhere to their dietary goals, leading to improved health outcomes.
 
 ### Problem Statement
-Develop a model that estimates the nutritional content of meals from photos. The mobile application should allow users to:
-1. Take a picture of their meal
-2. Receive an estimate of calories, macronutrients, and micronutrients
-3. Track meals and nutritional intake over time
-4. Set dietary goals and receive personalized recommendations
+**Input:** The user uploads or takes a photo of their meal.  
+**Output:** The system provides:
+1. **Nutritional estimates**: Calories, macronutrients (proteins, fats, carbohydrates), and key micronutrients (vitamins, minerals) based on the food items in the image.
+2. **Personalized feedback**: Meal logging, progress tracking, and personalized recommendations aligned with the user’s dietary goals (e.g., weight loss, muscle gain, balanced nutrition).
 
-The model should identify multiple food items in an image and estimate portion sizes with an error rate below 20%. The app should process images quickly, learn from user corrections, and feature a user-friendly interface.
+The application should allow users to:
+1. Automatically log their meals by simply taking a picture.
+2. Track their nutritional intake over time, including daily, weekly, or monthly summaries.
+3. Set dietary goals and receive personalized meal recommendations based on their objectives.
 
+The model should:
+- Identify multiple food items within a single image.
+- Estimate nutritional content quickly and accurately across a wide range of food types and cuisines.
+
+### Challenge
+The model must handle diverse food presentations and cuisines, making accurate portion size estimates from varied perspectives and image qualities. The web/mobile application should have a user-friendly interface that processes images in real time and allows for seamless meal tracking, even on the go.
 ---
 
 ## 5. EmotiMap
 
 ### Background
-Public sentiment and emotional reactions play a key role in shaping business decisions, political campaigns, and research. Current sentiment analysis tools are often limited to text-based inputs, which can fail to capture the emotional complexity of multi-modal data sources such as social media platforms.
+Understanding public sentiment and emotional reactions is crucial for making informed business decisions, shaping political strategies, and conducting social research. Current sentiment analysis tools are often limited to text, failing to capture the emotional depth expressed through images or facial expressions. Social media platforms, where users often share visual content, present an opportunity to gain more comprehensive insights into public sentiment by analyzing both text and visual data.
 
 ### Importance
-An emotion recognition system that integrates multiple input types (facial expression, voice, and text) would offer deeper insights into public sentiment. This would benefit businesses, governments, and researchers by providing real-time emotional intelligence that informs decision-making.
+A system that can analyze both facial expressions and text content from social media can provide organizations with deeper insights into public emotions. This could help businesses improve customer satisfaction, allow governments to respond better to public concerns, and enable researchers to study emotional trends during significant events. By understanding the full spectrum of emotional responses, organizations can tailor their actions to better meet the needs of their audiences.
 
 ### Problem Statement
-Build a multi-modal emotion recognition system that analyzes emotions from facial expressions, voice tones, and text. The social media analytics dashboard should:
-1. Collect and process data from multiple platforms
-2. Classify content into emotional categories (joy, anger, sadness, etc.)
-3. Visualize emotional trends over time and location
-4. Offer custom filtering and analysis options
+**Input:** The system collects and processes data from social media platforms, analyzing:
+- **Facial expressions** from images or videos.
+- **Text content** from posts, comments, and messages.
 
-The model should achieve 80% classification accuracy across all modalities, process large datasets in real-time, and trigger alerts for significant emotional shifts.
+**Output:** The system provides:
+1. **Emotion classification**: Detects and classifies emotional states such as joy, anger, sadness, fear, and surprise.
+2. **Emotion alerts**: Triggers alerts when significant shifts in emotional responses occur, such as a spike in negative reactions during an event.
 
+The model should:
+- Achieve a nominal accuracy across the two modalities (facial expressions and text).
+- Process large datasets efficiently, ensuring real-time or near-real-time analysis of public sentiment.
+- Focus on detecting fine-grained emotions and enable quick identification of emotional changes or trends during events.
+
+### Challenge
+The system must handle diverse types of unstructured social media data, where emotional cues may be expressed in indirect ways. The facial recognition model should work well across different demographics, lighting conditions, and image qualities. The text analysis model should understand context and sentiment effectively, while the overall system must process large volumes of data quickly and provide actionable insights.
 ---
 
-## 6. DreamCanvas
+## 6. SafeDrive
 
 ### Background
-Dreams have inspired art for centuries, but their abstract nature makes them difficult to visualize. Many artists struggle to translate dream imagery into visual art, limiting the potential to fully capture their dream experiences.
+Road accidents are a leading cause of injury and death globally. While vehicle safety systems can monitor some aspects of driving, integrating data from multiple sources, including video feeds and sensor data, for real-time accident detection is still a challenge. Detecting accidents accurately and promptly can significantly enhance emergency response and potentially save lives.
 
 ### Importance
-A system that generates artwork from dream descriptions could serve as a new form of creative expression, helping both artists and non-artists visualize their subconscious thoughts. This could also have applications in dream analysis and psychological research.
+An advanced system that can analyze real-time video and image data to detect road accidents can improve emergency response times and offer valuable insights into accident causation. By providing immediate alerts to first responders and automating accident detection, such a system can contribute to enhanced road safety and more effective emergency management.
 
 ### Problem Statement
-Create a GAN (Generative Adversarial Network) capable of generating artwork based on text descriptions of dreams. The application should:
-1. Take detailed text inputs of dreams
-2. Generate high-resolution images (1024x1024 or higher)
-3. Allow user input on artistic style (surrealism, realism, etc.)
-4. Produce diverse outputs even with similar inputs
+**Input:** The system analyzes:
+- **Video**: Captured from cameras or roadside surveillance, providing real-time visual information of the traffic environment.
+- **Images**: Static snapshots from the video feed or additional sources that offer detailed views of accident scenes.
 
-The model's artwork should be visually coherent, of high quality, and faithful to the input descriptions.
+**Output:** The system provides:
+1. **Accident detection**: Determines whether an accident has occurred based on the visual data, indicating the presence of a collision or sudden impact.
+2. **Incident alerts**: Sends real-time notifications to emergency services or relevant stakeholders if an accident is detected.
 
+The model should:
+- **Accurately detect accidents**: Achieve high precision in identifying collision events, reducing false positives and negatives.
+- **Process video and image data**: Operate effectively with real-time video streams and image data to detect accidents promptly.
+- **Provide real-time feedback**: Ensure minimal latency in detecting accidents and alerting emergency responders.
+
+### Challenge
+The system must handle varying visual conditions, including different weather scenarios, lighting, and road environments. The model should be robust against false positives from non-accident events and be capable of processing high-resolution video data efficiently. Real-time processing and accurate accident detection are critical for the system's effectiveness in enhancing road safety.
 ---
 
-## 7. BioCrypt
+## 7. AgriVision
 
 ### Background
-Weak passwords remain a significant vulnerability in cybersecurity. Although complex passwords are more secure, users often struggle to remember them, leading to insecure practices like reusing or writing them down. A more intuitive and secure method of generating passwords is needed.
+Precision agriculture leverages technology to optimize farming practices, but many small-scale farmers lack access to advanced tools and expertise. Monitoring crop health and soil conditions is crucial for maximizing yield and minimizing resource use, yet traditional methods often require costly technology and specialized knowledge. Accessible technology for analyzing agricultural data can greatly benefit farmers looking to improve their practices and outcomes.
 
 ### Importance
-Keystroke dynamics-based password generation offers a secure alternative to traditional methods by leveraging natural behavior patterns. This can enhance security while reducing the cognitive burden on users.
+A system that provides actionable insights into crop health and soil conditions can help farmers make informed decisions, boost crop yields, and reduce environmental impact. By democratizing access to precision agriculture tools, small-scale farmers can utilize advanced technology to enhance their farming practices and achieve greater sustainability.
 
 ### Problem Statement
-Develop a keystroke-dynamics-based system that generates secure, unique passwords based on typing patterns. The system should:
-1. Analyze typing speed, rhythm, and key hold times
-2. Generate high-entropy, secure passwords
-3. Ensure reproducibility by the user while resisting attacks
-4. Meet modern security standards (special characters, numbers, etc.)
+**Input:** The system analyzes:
+- **Weather data**: Real-time and historical data on weather conditions affecting agriculture.
+- **Soil sensor data**: Measurements of soil moisture, nutrient levels, and other parameters.
 
-The model must balance security and ease of use, ensuring the user can reproduce the password with minimal variation in typing behavior.
+**Output:** The system provides:
+1. **Crop health assessment**: Detects diseases, pests, and nutrient deficiencies based on weather and soil data.
+2. **Soil condition monitoring**: Evaluates soil moisture levels, nutrient content, and other parameters from sensor data.
+3. **Resource optimization recommendations**: Offers actionable suggestions for irrigation, fertilization, and pest control based on integrated data.
 
----
+The model should:
+- **Process multi-source data**: Combine weather and soil sensor information to deliver comprehensive insights.
+- **Deliver actionable insights**: Provide practical recommendations for improving crop management and resource use.
+- **Be accessible to farmers**: Ensure the system is user-friendly and provides valuable information without requiring extensive technical expertise.
 
-## 8. TimeWarp
-
-### Background
-Historical photos often lose their impact due to low resolution and lack of color. Manual efforts to restore and colorize these images can be time-consuming and prone to inaccuracies.
-
-### Importance
-AI-based restoration and colorization can help preserve and enhance historical images, making history more engaging and accessible. It can also reveal details that might otherwise be missed, aiding historical research.
-
-### Problem Statement
-Develop a deep learning model that colorizes and enhances historical black-and-white photographs. The system should:
-1. Automatically apply historically accurate colors
-2. Upscale the image resolution by 4x while preserving details
-3. Remove common artifacts (scratches, dust, etc.)
-4. Maintain the integrity of the original content
-
-The model should be trained on diverse historical datasets and evaluated based on both technical metrics and human perception.
-
----
-
-## 9. ScentSynth
-
-### Background
-Creating new fragrances is a complex process that requires expert knowledge of chemistry and perfumery. Translating scent descriptions into chemical formulations is time-consuming, often requiring significant trial and error.
-
-### Importance
-AI-powered fragrance generation can accelerate the development process, reducing costs and enabling the discovery of new scent combinations. It could also serve as a powerful educational tool for aspiring perfumers.
-
-### Problem Statement
-Create a model that predicts perfume formulations based on textual descriptions of scent profiles. The system should:
-1. Parse natural language descriptions (top, middle, base notes)
-2. Predict chemical compositions and concentrations
-3. Suggest alternative chemicals for similar olfactory results
-4. Provide stability and longevity estimates for the fragrances
-
-The model should achieve high accuracy in predicting key ingredients of well-known perfumes while generating plausible compositions for novel scents.
-
----
-
-## 10. EcoGenetics
-
-### Background
-Climate change is impacting ecosystems globally, affecting plant biodiversity and species distribution. Understanding how plants will evolve in response to climate change is critical for conservation and agriculture.
-
-### Importance
-Accurately predicting plant evolution under climate change can guide conservation efforts and help develop climate-resilient crops, preserving biodiversity and food security.
-
-### Problem Statement
-Develop a model that predicts plant species' adaptation to climate change. The system should:
-1. Analyze current plant genetics, physiology, and environmental tolerance
-2. Use climate projection data to simulate future conditions
-3. Predict genetic, phenotypic, and geographical changes
-4. Estimate species' adaptation success or extinction likelihood
-
-The model should handle various plant types,
+### Challenge
+The system must effectively analyze and integrate data from different sources, including weather conditions and soil measurements. It should handle variations in data quality and environmental factors while ensuring that recommendations are practical and easily actionable for farmers. Making the system accessible and useful to those with varying levels of technological expertise is crucial for its success and adoption.
 
