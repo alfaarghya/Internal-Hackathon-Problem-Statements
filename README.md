@@ -93,6 +93,7 @@ Gesture recognition technology can greatly enhance accessibility, enabling users
 1. **Click**
 2. **Scroll**
 3. **Navigate**
+4. **... etc**
 
 The application should allow users to:
 1. Customize gesture-to-action mappings.
@@ -100,7 +101,7 @@ The application should allow users to:
 3. Adjust gesture recognition sensitivity and define activation zones on the screen for more accurate control.
 
 The model should:
-- Recognize at least 10 predefined gestures with a minimum accuracy of 95%.
+- Recognize at least 5 predefined gestures with optimum accuracy.
 - Adapt to different lighting conditions and various hand positions.
 - Perform with low latency to ensure smooth, real-time interaction.
 
@@ -133,7 +134,7 @@ The model should:
 - Estimate nutritional content quickly and accurately across a wide range of food types and cuisines.
 
 ### Challenge
-The model must handle diverse food presentations and cuisines, making accurate portion size estimates from varied perspectives and image qualities. The web/mobile application should have a user-friendly interface that processes images in real time and allows for seamless meal tracking, even on the go.
+The model must handle diverse food presentations and cuisines, making accurate portion size estimates from varied perspectives and image qualities. The web/mobile application should have a user-friendly interface that processes images in real-time and allows for seamless meal tracking, even on the go.
 
 ---
 
