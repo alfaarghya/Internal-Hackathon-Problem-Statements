@@ -1,11 +1,12 @@
-# ML Hackathon
+# Internal ML Hackathon
 
 ## Instructions
 - Team size must be 3 to 4 members.
-- Original code required; no copying from open-source platforms; using open-source models is allowed.
-- Free to use any programming languages and frameworks.
-- Provide a 1-2 page document explaining the ML approach, models used, experiments, and conclusions.
+- You are free to use any public datasets. No dataset will be given from our side.
+- At the end, each team have to provide a 1-2 page document explaining the ML approach, models used, experiments, and conclusions.
 - Submit complete source code with proper comments describing functions.
+- Free to use any programming languages and frameworks.
+- No copying from open-source platforms; using open-source models is allowed.
 - Any form of cheating, including code plagiarism, will lead to disqualification.
 
 ## Evaluation Criteria
