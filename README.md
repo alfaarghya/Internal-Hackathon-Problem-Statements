@@ -30,6 +30,7 @@ The app should also:
   
 ### Challenge
 The model must handle diverse image inputs, varying lighting conditions, and different item orientations while maintaining high classification accuracy.
+
 ---
 
 ## 2. SoundScape
@@ -59,6 +60,7 @@ The model should:
 
 ### Challenge
 The model must handle a wide variety of audio files with different instruments, varying complexities, and overlapping frequencies. The web application should be responsive, allowing users to adjust the audio tracks in real-time without noticeable delays or quality degradation.
+
 ---
 
 ## 3. GestureFlow
@@ -88,6 +90,7 @@ The model should:
 
 ### Challenge
 The gesture recognition model must be robust against environmental changes, such as varying lighting or backgrounds, and accurately distinguish between different hand movements. The desktop application should be responsive and provide a simple interface for gesture customization, allowing users to personalize the system based on their needs and preferences.
+
 ---
 
 ## 4. NutriAI
@@ -115,6 +118,7 @@ The model should:
 
 ### Challenge
 The model must handle diverse food presentations and cuisines, making accurate portion size estimates from varied perspectives and image qualities. The web/mobile application should have a user-friendly interface that processes images in real time and allows for seamless meal tracking, even on the go.
+
 ---
 
 ## 5. EmotiMap
@@ -141,6 +145,7 @@ The model should:
 
 ### Challenge
 The system must handle diverse types of unstructured social media data, where emotional cues may be expressed in indirect ways. The facial recognition model should work well across different demographics, lighting conditions, and image qualities. The text analysis model should understand context and sentiment effectively, while the overall system must process large volumes of data quickly and provide actionable insights.
+
 ---
 
 ## 6. SafeDrive
@@ -167,6 +172,7 @@ The model should:
 
 ### Challenge
 The system must handle varying visual conditions, including different weather scenarios, lighting, and road environments. The model should be robust against false positives from non-accident events and be capable of processing high-resolution video data efficiently. Real-time processing and accurate accident detection are critical for the system's effectiveness in enhancing road safety.
+
 ---
 
 ## 7. AgriVision
