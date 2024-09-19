@@ -1,5 +1,5 @@
 ## 11. Domain: Agriculture
-### Title: Sustainable Crop Rotation Systems for Small-Scale Farmers
+### <ins>Title: Sustainable Crop Rotation Systems for Small-Scale Farmers</ins>
 
 ### Background:
 Small-scale farmers often struggle with maintaining soil fertility and crop yields due to limited land and resources. Traditional farming practices can lead to soil degradation and reduced productivity over time.
