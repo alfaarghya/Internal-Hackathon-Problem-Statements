@@ -2,7 +2,7 @@
 
 ### Background
 
-Cooking enthusiasts often seek ways to organize their favorite recipes and share culinary creations with others. Combining personal recipe management with community sharing can enhance the experience for users who want both to keep track of their recipes and engage with a broader community of food lovers.
+Cooking enthusiasts often seek ways to organize their favourite recipes and share culinary creations with others. Combining personal recipe management with community sharing can enhance the experience for users who want both to keep track of their recipes and engage with a broader community of food lovers.
 
 ### Importance
 
