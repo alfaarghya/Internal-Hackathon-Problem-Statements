@@ -1,4 +1,4 @@
-##8. ExpenseTracker
+## 8. ExpenseTracker
 ### Background
 
 Managing personal finances effectively requires a clear understanding of spending habits and financial health. An expense tracking application helps users log and categorize their expenses, providing insights into their spending patterns. This enables better budgeting and financial planning.
