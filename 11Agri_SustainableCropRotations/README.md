@@ -1,4 +1,4 @@
-##1. Domain: Agriculture
+## 1. Domain: Agriculture
 Title: Sustainable Crop Rotation Systems for Small-Scale Farmers
 
 Background:
