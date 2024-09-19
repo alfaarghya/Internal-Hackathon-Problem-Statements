@@ -21,7 +21,7 @@
 
 # Problem Statements
 
-### [01. EcoScan](./Problem%20Statements/01EcoScan/README.md)
+### [01. EcoScan](./Problem%20Statements/01EcoScan.md)
 
 ### [02. SoundScape](./Problem%20Statements/02SoundScape.md)
 
