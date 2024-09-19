@@ -9,6 +9,7 @@
 - Free to use any programming languages and frameworks.
 - No copying from open-source platforms; using open-source models is allowed.
 - Any form of cheating, including code plagiarism, will lead to disqualification.
+- If have any queries or guidance regarding the problem statements, please get into the whatsapp group attached to the email being circulated to you.
 
 ## Evaluation Criteria
 
