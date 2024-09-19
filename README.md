@@ -1,44 +1,50 @@
-# Internal Hackathon
+# React + TypeScript + Vite
 
-## Instructions
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-- Team size must be 3 to 4 members.
-- You are free to use any public datasets. No dataset will be given from our side.
-- At the end, each team have to provide a 1-2 page document explaining the ML approach, models used, experiments, and conclusions.
-- Submit complete source code with proper comments describing functions.
-- Free to use any programming languages and frameworks.
-- No copying from open-source platforms; using open-source models is allowed.
-- Any form of cheating, including code plagiarism, will lead to disqualification.
-- If have any queries or guidance regarding the problem statements, please get into the whatsapp group attached to the email being circulated to you.
+Currently, two official plugins are available:
 
-## Evaluation Criteria
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-- Implementation Novelty: Originality and creativity of the solution.
-- Code Presence: Completeness and organization of source code.
-- Solution Completeness: How well the solution meets the problem statement.
-- Idea Uniqueness: Uniqueness and innovation of the idea.
-- Code Quality: Readability, maintainability, and documentation of the code.
+## Expanding the ESLint configuration
 
-# Problem Statements
+If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-### [01. EcoScan](./01EcoScan/README.md)
+- Configure the top-level `parserOptions` property like this:
 
-### [02. SoundScape](./02SoundScape/README.md)
+```js
+export default tseslint.config({
+  languageOptions: {
+    // other options...
+    parserOptions: {
+      project: ["./tsconfig.node.json", "./tsconfig.app.json"],
+      tsconfigRootDir: import.meta.dirname,
+    },
+  },
+});
+```
 
-### [03. GestureFlow](./03GestureFlow/README.md)
+- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
+- Optionally add `...tseslint.configs.stylisticTypeChecked`
+- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
 
-### [04. NutriAI](./04NutriAI/README.md)
+```js
+// eslint.config.js
+import react from "eslint-plugin-react";
 
-### [05. EmotiMap](./05EmotiMap/README.md)
-
-### [06. SafeDrive](./06SafeDrive/README.md)
-
-### [07. AgriVision](./07AgriVision/README.md)
-
-### [08. ExpenseTracker](./08ExpenseTracker/README.md)
-
-### [09. RecipeDrive](./09RecipeDrive/README.md)
-
-### [10. DevsType](./10DevsType/README.md)
-
----
+export default tseslint.config({
+  // Set the react version
+  settings: { react: { version: "18.3" } },
+  plugins: {
+    // Add the react plugin
+    react,
+  },
+  rules: {
+    // other rules...
+    // Enable its recommended rules
+    ...react.configs.recommended.rules,
+    ...react.configs["jsx-runtime"].rules,
+  },
+});
+```
