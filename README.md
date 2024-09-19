@@ -1,4 +1,4 @@
-# Internal ML Hackathon
+# Internal Hackathon
 
 ## Instructions
 
