@@ -1,3 +1,4 @@
+## 1. EcoScan
 ### Background
 Recycling is essential for environmental sustainability, but many individuals face challenges in correctly sorting their waste due to the complex and often region-specific recycling rules. Incorrect sorting can lead to contamination of recyclable materials, reducing the effectiveness of recycling efforts and increasing landfill waste. A key barrier to better recycling habits is the difficulty in identifying what materials are recyclable and how to properly dispose of them.
 
