@@ -21,24 +21,24 @@
 
 # Problem Statements
 
-### [01. EcoScan](./Problem%20Statements/01EcoScan/README.md)
+### [01. EcoScan](./01EcoScan/README.md)
 
-### [02. SoundScape](./Problem%20Statements/02SoundScape.md)
+### [02. SoundScape](./02SoundScape/README.md)
 
-### [03. GestureFlow](./Problem%20Statements/03GestureFlow.md)
+### [03. GestureFlow](./03GestureFlow/README.md)
 
-### [04. NutriAI](./Problem%20Statements/04NutriAI.md)
+### [04. NutriAI](./04NutriAI/README.md)
 
-### [05. EmotiMap](./Problem%20Statements/05EmotiMap.md)
+### [05. EmotiMap](./05EmotiMap/README.md)
 
-### [06. SafeDrive](./Problem%20Statements/06SafeDrive.md)
+### [06. SafeDrive](./06SafeDrive/README.md)
 
-### [07. AgriVision](./Problem%20Statements/07AgriVision.md)
+### [07. AgriVision](./07AgriVision/README.md)
 
-### [08. ExpenseTracker](./Problem%20Statements/08ExpenseTracker.md)
+### [08. ExpenseTracker](./08ExpenseTracker/README.md)
 
-### [09. RecipeDrive](./Problem%20Statements/09RecipeDrive.md)
+### [09. RecipeDrive](./09RecipeDrive/README.md)
 
-### [10. DevsType](./Problem%20Statements/10DevsType.md)
+### [10. DevsType](./10DevsType/README.md)
 
 ---
