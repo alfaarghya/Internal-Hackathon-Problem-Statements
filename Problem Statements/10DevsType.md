@@ -17,3 +17,11 @@ Users often seek ways to improve their typing skills and engage in friendly comp
 1. **Type Test:** Design a feature-rich test that measures both the speed and accuracy of typing, with an intuitive interface. Real-time feedback should be provided to visually distinguish between correct and incorrect letters/words through color-coding during the test.
 2. **Leaderboard Management** Implementing a leaderboard that tracks and displays users' performance, while reducing database load by updating periodically.
 3. **User Authentication:** Ensuring that users can create accounts and log in to access leaderboards, dashboard and competition features, with secure data storage and access control.
+
+### Bonus Point
+
+1. **Custom Rooms:** Implement the functionality of creating rooms for a live competition with friends. Rooms must accommodate at least 2 persons in them and reflect the completion process in real time.
+
+```
+📌 Bonus Points are not mandatory to complete, but they can provide an edge in the competition.
+```
