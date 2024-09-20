@@ -28,7 +28,7 @@
 - Open to students from schools other than SST
 
 #### Presentation
-- Present a PowerPoint presentation or a prototype explaining the solution for the chosen problem statement
+- Every team must prepare a powerpoint presentation along with system flow chart or a Block diagram which is to be presented in physical mode in front of the table 
 
 #### Additional Information
 - For queries or guidance, join the WhatsApp group mentioned in the circulated email. (NOTE: IT'S A MUST)
@@ -42,7 +42,7 @@
 - Idea Uniqueness: Uniqueness and innovation of the idea.
 - For **ML & Web-Dev** statements <ins>only</ins>: Code Quality: Readability, maintainability, and documentation of the code.
 
-# Hackathon Problem Statements
+# Hackathon Problem Statements:- (For School of Science & Technology)
 
 ## ML based Problem Statements:-
 
@@ -68,7 +68,7 @@
 
 ### [10. DevsType](./10DevsType/README.md)
 
-# Ideathon Problem Statements:- 
+# Ideathon Problem Statements:- (For Agriculture, Health Science and Marine Engineering Departments) 
 
 ### [11. Sustainable Crop Rotation Systems for Small-Scale Farmers](./11Agri_SustainableCropRotations/README.md)
 
