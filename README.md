@@ -1,22 +1,38 @@
 # Internal Hackathon
 
-## Instructions
+## Hackathon Instructions
+### General Information
+- Teams have to start at as soon as their problem statements have been finalised by the organising team. The Finalisation will be conveyed in the whatsapp group.
+- Date: 27th of September (Showcase)
+- Finals: 28th of September at Parikalpana 2k24 Event (PPT format presentation)
+- Team size: 3 to 4 members
+- Categories: 1. ML statements   2. Web-Dev statements   3. Ideathon statements
+- Choose only 1 problem statement to solve
 
-- This hackathon will be held on the **27th of September**, where you all will be showcasing your projects based on the problem statements selected or given. Finalists will be chosen on that day itself who will be presenting live on the **28th of September** at the Parikalpana 2k24 Event(PPT format). If the hackathon is based on ML or Web-Dev problem statements, then a proper GUI is needed to be presented along with the detailed explanation of your solutions.
-- The Problem Statements are divided into **three** categories: 1. ML statements   2. Web-Dev statements   3. Ideathon statements
-- You will be given to choose only 1 problem statement to find its solution for.
-- The students of School of Science & Technology (SST) are **bound** to choose either from the <ins>ML or Web-Dev</ins> problem Statements, **excluding** the Ideathon.
-- Students from other schools are free to choose a problem statement from any of the categories.
-- Team size must be **3 to 4** members.
-- For **Ideathon** statements, your team will have to present a powerpoint presentation or a prototype in explaining the solution for the problem statement opted.
-- For **ML** statements, You are free to use any public datasets. No dataset will be given from our side.
-- For **ML** statements, At the end, each team have to provide a 1-2 page document explaining the ML approach, models used, experiments, and conclusions.
-- For **ML & Web-Dev** statements, Submit complete source code with proper comments describing functions.
-- For **ML & Web-Dev** statements, Free to use any programming languages and frameworks.
-- For **ML** statements, No copying from open-source platforms; using open-source models is allowed.
-- For **ML & Web-Dev** statements, Any form of cheating, including code plagiarism, will lead to disqualification.
-- If have any queries or guidance regarding the problem statements, please get into the whatsapp group attached to the email being circulated to you.
-- The problem statements are given below. Click on the name of a problem statement to get the instructions about it.
+
+### Instructions for ML and Web Dev
+#### Eligibility and Requirements
+- Students of School of Science & Technology (SST) must choose either ML or Web-Dev problem statements
+- For ML & Web-Dev statements:
+  - Provide a proper GUI along with detailed explanation of solutions
+  - Submit complete source code with proper comments describing functions
+  - Free to use any programming languages and frameworks
+    
+#### ML-Specific Instructions
+  - Free to use any public datasets (no dataset provided)
+  - Provide a 1-2 page document explaining the ML approach, models used, experiments, and conclusions
+  - No copying from open-source platforms; using open-source models is allowed
+
+### Instructions for Ideathon
+#### Eligibility
+- Open to students from schools other than SST
+
+#### Presentation
+- Present a PowerPoint presentation or a prototype explaining the solution for the chosen problem statement
+
+#### Additional Information
+- For queries or guidance, join the WhatsApp group mentioned in the circulated email. (NOTE: IT'S A MUST)
+- Problem statements are provided separately (click on the name of a problem statement for instructions)
 
 ## Evaluation Criteria
 
@@ -26,7 +42,7 @@
 - Idea Uniqueness: Uniqueness and innovation of the idea.
 - For **ML & Web-Dev** statements <ins>only</ins>: Code Quality: Readability, maintainability, and documentation of the code.
 
-# Problem Statements
+# Hackathon Problem Statements
 
 ## ML based Problem Statements:-
 
@@ -52,7 +68,7 @@
 
 ### [10. DevsType](./10DevsType/README.md)
 
-## Ideathon based Problem Statements:- 
+# Ideathon Problem Statements:- 
 
 ### [11. Sustainable Crop Rotation Systems for Small-Scale Farmers](./11Agri_SustainableCropRotations/README.md)
 
