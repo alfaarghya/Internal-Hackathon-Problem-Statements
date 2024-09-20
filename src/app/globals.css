@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  background-color: #000000;
+  color: #f5f5f5;
+  /* color: aliceblue; */
+  /* background-color: rgb(31, 194, 58); */
+  /* 0B2447
+    19376D
+    576CBC
+    A5D7E8
+  */
+
+  /* color: #800808; */
+}

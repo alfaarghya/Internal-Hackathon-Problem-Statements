@@ -1,11 +1,28 @@
-import { Link } from "react-router-dom";
+import { BackgroundLines } from "@/components/ui/background-lines";
+import Link from "next/link";
 
-const Home = () => {
+export default function Home() {
   return (
-    <div className="min-h-screen p-4 bg-gray-100">
-      <h1 className="text-3xl font-bold mb-4 text-center">
-        Hackathon Instructions and Evaluation Criteria
-      </h1>
+    <div className="min-h-screen p-4 ">
+      <BackgroundLines
+        svgOptions={{ duration: 6 }}
+        className="flex justify-center items-center flex-col"
+      >
+        <div className=" flex justify-center items-center flex-col z-10 p-12">
+          <h1 className="text-4xl md:text-6xl font-bold text-[#f5f5f5] pb-1">
+            HACKTNU
+          </h1>
+
+          <h3 className="sm:text-4xl xl:text-4xl font-bold text-[#cfcfcf] z-10">
+            Unlock Your True Potential
+          </h3>
+        </div>
+        <p className="text-xs md:text-base md:w-3/5 text-center text-[#a7a7a7] z-10">
+          Accelerate your journey from concept to creation in an environment
+          designed to inspire innovation. Compete, collaborate, and create
+          groundbreaking solutions with like-minded innovators.
+        </p>
+      </BackgroundLines>
 
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-2">Instructions</h2>
@@ -61,68 +78,68 @@ const Home = () => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <Link
-          to="/EcoScan"
+          href="problems/EcoScan"
           className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 text-center"
         >
           EcoScan
         </Link>
         <Link
-          to="/SoundScape"
+          href="problems/SoundScape"
           className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 text-center"
         >
           SoundScape
         </Link>
         <Link
-          to="/GestureFlow"
+          href="problems/GestureFlow"
           className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 text-center"
         >
           GestureFlow
         </Link>
         <Link
-          to="/NutriAI"
+          href="problems/NutriAI"
           className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 text-center"
         >
           NutriAI
         </Link>
         <Link
-          to="/EmotiMap"
+          href="problems/EmotiMap"
           className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 text-center"
         >
           EmotiMap
         </Link>
         <Link
-          to="/SafeDrive"
+          href="problems/SafeDrive"
           className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 text-center"
         >
           SafeDrive
         </Link>
         <Link
-          to="/AgriVision"
+          href="problems/AgriVision"
           className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 text-center"
         >
           AgriVision
         </Link>
         <Link
-          to="/ExpenseTracker"
+          href="problems/ExpenseTracker"
           className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 text-center"
         >
           ExpenseTracker
         </Link>
         <Link
-          to="/RecipeDrive"
+          href="problems/RecipeDrive"
           className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 text-center"
         >
           RecipeDrive
         </Link>
         <Link
-          to="/DevsType"
+          href="problems/DevsType"
           className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 text-center"
         >
           DevsType
         </Link>
       </div>
+
+      <br />
     </div>
   );
-};
-
-export default Home;
+}

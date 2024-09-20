@@ -1,6 +1,6 @@
 const AgriVision = () => {
   return (
-    <div className="min-h-screen p-4 bg-gray-100">
+    <div className="min-h-screen p-4  ">
       <h1 className="text-3xl font-bold mb-4">AgriVision</h1>
 
       <h2 className="text-2xl font-semibold mb-2">Background</h2>

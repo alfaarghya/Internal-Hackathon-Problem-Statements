@@ -1,6 +1,6 @@
 const RecipeDrive = () => {
   return (
-    <div className="min-h-screen p-4 bg-gray-100">
+    <div className="min-h-screen p-4  ">
       <h1 className="text-3xl font-bold mb-4">
         Recipe Drive (Recipe Sharing Community)
       </h1>
