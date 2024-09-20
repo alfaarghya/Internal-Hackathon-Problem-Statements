@@ -80,4 +80,14 @@
 
 ### [15. Adaptive Learning Platforms for Students with Learning Disabilities](./15_Education_Tech_Learning_Platform_Disabilities/README.md)
 
+### [16. Sustainable Energy Solutions for Marine Vessels - Hybrid Propulsion Systems](./16_Hybrid_Propulsion_Systems/README.md)
+
+### [17. IoT-Based Energy Monitoring for Marine Vessels](./17_IoT_Based_Energy_Monitoring_for_Marine_Vessels/README.md)
+
+### [18. IoT-Enabled Ballast Water Management for Pollution Control](./18_Ballast_Water_Management/README.md)
+
+### [19. IoT-Based Precision Irrigation Systems](./19_Precision_Irrigation_Systems/README.md)
+
+### [20. IoT-Enabled Pest and Disease Detection in Crops](./20_Pest_and_Disease_Detection_in_Crops/README.md)
+
 ---
