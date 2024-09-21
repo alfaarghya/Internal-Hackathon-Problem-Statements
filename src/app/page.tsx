@@ -84,7 +84,7 @@ export default function Home() {
         <h2 className="text-2xl md:text-4xl font-bold text-[#cfcfcf] p-8">
           Problem Statements
         </h2>
-        <div className="h-full grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-8">
+        <div className="h-full w-full grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-8">
           <ProblemCard title="EcoScan" />
           <ProblemCard title="SoundScape" />
           <ProblemCard title="GestureFlow" />
