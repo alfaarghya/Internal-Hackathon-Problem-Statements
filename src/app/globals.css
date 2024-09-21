@@ -3,15 +3,38 @@
 @tailwind utilities;
 
 * {
-  background-color: #000000;
-  color: #f5f5f5;
-  /* color: aliceblue; */
-  /* background-color: rgb(31, 194, 58); */
+  /* background-color: #000000;
+  background-color: #0b2447; */
+  /* color: #f5f5f5;
+  color: rgba(59  , 130, 246, );
+  color: rgba(139  , 92, 246, );
+  color: rgb(11, 36, 71);
+  color: #19376d;
+  color: #576CBC;
+  color: #a6d7e8;
+  color: aliceblue; */
   /* 0B2447
     19376D
     576CBC
-    A5D7E8
-  */
-
-  /* color: #800808; */
+    A5D7E8 */
+  /* color: #0B2447;
+    color: #4fae4d;
+    color: #19376D;
+    color: #576CBC;
+    color: #A5D7E8;
+    color: #604483;
+    color: #46a5ca;
+    color: #4d3568;
+    color: #a534a0;
+    color: #0B2447;
+    color: rgb(25, 55, 109);
+    color: #576CBC;
+    color: #A5D7E8;
+    color: rgb(36, 122, 251);
+    color: #9f39a5;
+    color: #d6590c;
+    color: #46a29c;
+    color: #d7c200;
+    color: #d6590c;
+    color: #59bbeb; */
 }
