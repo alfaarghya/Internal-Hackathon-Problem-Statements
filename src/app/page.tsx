@@ -95,8 +95,8 @@ export default function Home() {
           <ProblemCard title="ExpenseTracker" />
           <ProblemCard title="RecipeDrive" />
           <ProblemCard title="DevsType" />
-          <ProblemCard title="Coming Soon" />
-          <ProblemCard title="Coming Soon" />
+          <ProblemCard title="ComingSoon" />
+          <ProblemCard title="ComingSoon" />
         </div>
       </div>
 
