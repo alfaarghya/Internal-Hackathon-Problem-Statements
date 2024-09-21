@@ -50,7 +50,7 @@ const RecipeDrive = () => {
         </li>
         <li>
           <strong>Community Interaction:</strong> Creating features for users to
-          share recipes, comment on others' recipes, and vote them to foster
+          share recipes, comment on others&apos recipes, and vote them to foster
           community engagement.
         </li>
         <li>

@@ -77,8 +77,8 @@ const SafeDrive = () => {
         weather scenarios, lighting, and road environments. The model should be
         robust against false positives from non-accident events and be capable
         of processing high-resolution video data efficiently. Real-time
-        processing and accurate accident detection are critical for the system's
-        effectiveness in enhancing road safety.
+        processing and accurate accident detection are critical for the
+        system&aposs effectiveness in enhancing road safety.
       </p>
     </div>
   );

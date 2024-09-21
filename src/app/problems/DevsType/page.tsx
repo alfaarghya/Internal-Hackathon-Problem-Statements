@@ -47,8 +47,8 @@ const DevsType = () => {
         </li>
         <li>
           <strong>Leaderboard Management:</strong> Implementing a leaderboard
-          that tracks and displays users' performance, while reducing database
-          load by updating periodically.
+          that tracks and displays users&apos performance, while reducing
+          database load by updating periodically.
         </li>
         <li>
           <strong>User Authentication:</strong> Ensuring that users can create
