@@ -15,7 +15,7 @@ export default function Home() {
         >
           <div className=" flex justify-center items-center flex-col z-10 p-12">
             <h1 className="text-2xl md:text-4xl lg:text-7xl font-bold text-[#f5f5f5] pb-1">
-              HACKTNU
+              HACKFUSION
             </h1>
 
             <h3 className="md:text-4xl lg:text-6xl font-bold text-[#cfcfcf] z-10">
