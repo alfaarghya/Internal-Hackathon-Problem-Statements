@@ -95,8 +95,16 @@ export default function Home() {
           <ProblemCard title="ExpenseTracker" />
           <ProblemCard title="RecipeDrive" />
           <ProblemCard title="DevsType" />
-          <ProblemCard title="ComingSoon" />
-          <ProblemCard title="ComingSoon" />
+          <ProblemCard title="SCRSystem" />
+          <ProblemCard title="PMDSystem" />
+          <ProblemCard title="STMSystem" />
+          <ProblemCard title="CEWSystem" />
+          <ProblemCard title="AdaptiveLearning" />
+          <ProblemCard title="SustainableEnergy" />
+          <ProblemCard title="EnergyMonitoring" />
+          <ProblemCard title="WaterManagement" />
+          <ProblemCard title="PISystem" />
+          <ProblemCard title="PDDetection" />
         </div>
       </div>
 
