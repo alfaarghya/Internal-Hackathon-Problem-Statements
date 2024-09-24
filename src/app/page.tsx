@@ -92,6 +92,7 @@ export default function Home() {
           <ProblemCard title="EmotiMap" />
           <ProblemCard title="SafeDrive" />
           <ProblemCard title="AgriVision" />
+          <ProblemCard title="TrafficAI" />
           <ProblemCard title="ExpenseTracker" />
           <ProblemCard title="RecipeDrive" />
           <ProblemCard title="DevsType" />
