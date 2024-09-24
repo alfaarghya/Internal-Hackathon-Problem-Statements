@@ -1,36 +1,44 @@
 # Internal Hackathon
 
 ## Hackathon Instructions
+
 ### General Information
+
 - Teams have to start at as soon as their problem statements have been finalised by the organising team. The Finalisation will be conveyed in the whatsapp group.
 - Date: 27th of September (Showcase)
 - Finals: 28th of September at Parikalpana 2k24 Event (PPT format presentation)
 - Team size: 3 to 4 members
-- Categories: 1. ML statements   2. Web-Dev statements   3. Ideathon statements
+- Categories: 1. ML statements 2. Web-Dev statements 3. Ideathon statements
 - Choose only 1 problem statement to solve
 
-
 ### Instructions for ML and Web Dev
+
 #### Eligibility and Requirements
+
 - Students of School of Science & Technology (SST) must choose either ML or Web-Dev problem statements
 - For ML & Web-Dev statements:
   - Provide a proper GUI along with detailed explanation of solutions
   - Submit complete source code with proper comments describing functions
   - Free to use any programming languages and frameworks
-    
+
 #### ML-Specific Instructions
-  - Free to use any public datasets (no dataset provided)
-  - Provide a 1-2 page document explaining the ML approach, models used, experiments, and conclusions
-  - No copying from open-source platforms; using open-source models is allowed
+
+- Free to use any public datasets (no dataset provided)
+- Provide a 1-2 page document explaining the ML approach, models used, experiments, and conclusions
+- No copying from open-source platforms; using open-source models is allowed
 
 ### Instructions for Ideathon
+
 #### Eligibility
+
 - Open to students from schools other than SST
 
 #### Presentation
-- Every team must prepare a powerpoint presentation along with system flow chart or a Block diagram which is to be presented in physical mode in front of the table 
+
+- Every team must prepare a powerpoint presentation along with system flow chart or a Block diagram which is to be presented in physical mode in front of the table
 
 #### Additional Information
+
 - For queries or guidance, join the WhatsApp group mentioned in the circulated email. (NOTE: IT'S A MUST)
 - Problem statements are provided separately (click on the name of a problem statement for instructions)
 
@@ -60,6 +68,8 @@
 
 ### [07. AgriVision](./07AgriVision/README.md)
 
+### [21. TrafficAI](./21TrafficAI/README.md)
+
 ## Web-Dev based Problem Statements:-
 
 ### [08. ExpenseTracker](./08ExpenseTracker/README.md)
@@ -68,7 +78,7 @@
 
 ### [10. DevsType](./10DevsType/README.md)
 
-# Ideathon Problem Statements:- (For Agriculture, Health Science and Marine Engineering Departments) 
+# Ideathon Problem Statements:- (For Agriculture, Health Science and Marine Engineering Departments)
 
 ### [11. Sustainable Crop Rotation Systems for Small-Scale Farmers](./11Agri_SustainableCropRotations/README.md)
 
